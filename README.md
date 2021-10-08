@@ -16,8 +16,8 @@ golang-go について、公式のインストール方法は下記にありま�
 - $HOME/.profile で `$PATH` を指定
 - $HOME/.profile で `$GOPATH` を指定
 - goenv は anyenv でインストール
-- goenv で普段使うものは `goenv global system` 
-- goenv 環境で開発しているものは `goenv local` で指定したもの（.go-version）を使用
+- goenv で普段使うものは system （`goenv global system` で指定したもの）
+- goenv 環境で開発しているものは .go-version （`goenv local` で指定したもの）
 - apt 版を使う場合は専用スクリプトを用意して利用
 
 $HOME/.profile へは下記の内容を追加します。ここでは anyenv を利用する場合の指定例になります。
